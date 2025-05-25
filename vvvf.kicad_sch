@@ -7564,10 +7564,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9f8ed83-0ea5-49a4-9206-498d33aece4f")
 		(property "Reference" "D6"
-			(at 101.9175 116.205 0)
+			(at 97.155 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
