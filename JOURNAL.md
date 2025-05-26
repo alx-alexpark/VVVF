@@ -17,5 +17,14 @@ From this, I drew up a quick schematic using the above IC.
 
 ![image](https://github.com/user-attachments/assets/87b510aa-837d-4e5f-a4cc-9f309eb8f0d5)
 
-
 **Total time spent: 3h**
+
+# May 25th: Decided on a MOSFET, added current monitoring, brake chopper, and Raspberry Pi Pico MCU
+
+So today I decided to use MOSFETS instead of IGBTs because they are a lot simpler. I chose IPDD60R037CM8XTMA1 MOSFETs because they were rated for the high voltage and they had a good exposed thermal pad that I could easily attack to a large heatsink. 
+
+I also added a hall-effect current sensor to one of the phases, and a Raspberry Pi Pico MCU. I drew up a good amount of schematic today.
+
+![image](https://github.com/user-attachments/assets/7840d77f-32a2-4162-8981-cafc1e2ce8c6)
+
+**Total time spent: 5h**
