@@ -27,4 +27,8 @@ I also added a hall-effect current sensor to one of the phases, and a Raspberry 
 
 ![image](https://github.com/user-attachments/assets/7840d77f-32a2-4162-8981-cafc1e2ce8c6)
 
+Some parts I selected
+![image](https://github.com/user-attachments/assets/2abb6cb0-ef22-4894-8222-acf2e3a6a67d)
+
+
 **Total time spent: 5h**
