@@ -41,3 +41,5 @@ I also started laying out the MOSFETs and the gate drivers on the board. This is
 
 ![image](https://github.com/user-attachments/assets/e76d72d8-9a8a-41c0-97f6-aabb8da9fa10)
 
+**Total time spent: 5h**
+
