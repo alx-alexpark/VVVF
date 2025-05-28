@@ -43,3 +43,9 @@ I also started laying out the MOSFETs and the gate drivers on the board. This is
 
 **Total time spent: 5h**
 
+# May 27th: A little layout work
+
+Today I worked a bit more on the layout. Trying to keep gate drivers on the top side, and the MOSFETs on the bottom. Need to consider how I'll connect the power wires, through screw terminals or whatever. 
+
+**Total time spent: 1.5h**
+
