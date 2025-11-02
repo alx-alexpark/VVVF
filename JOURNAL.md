@@ -32,3 +32,20 @@ Some parts I selected
 
 
 **Total time spent: 5h**
+
+# May 26th: Looked at options for voltage monitoring, and started basic layout
+
+It is pretty important for my inverter to know the voltage of the DC bus at all times, so I looked into what options I had to measure that voltage. I think I'll use a voltage divider with either the RP2040's inbuilt ADC, or an isolated ADC.
+
+I also started laying out the MOSFETs and the gate drivers on the board. This is my first time working with a 4 layer board, which I mainly chose to do to keep things compact, and so I could have an uninterrupted ground plane and to have a larger thermal mass. I intentionally put the MOSFETs on the back because I was going to mount this board to a heatsink.
+
+![image](https://github.com/user-attachments/assets/e76d72d8-9a8a-41c0-97f6-aabb8da9fa10)
+
+**Total time spent: 5h**
+
+# May 27th: A little layout work
+
+Today I worked a bit more on the layout. Trying to keep gate drivers on the top side, and the MOSFETs on the bottom. Need to consider how I'll connect the power wires, through screw terminals or whatever. 
+
+**Total time spent: 1.5h**
+
