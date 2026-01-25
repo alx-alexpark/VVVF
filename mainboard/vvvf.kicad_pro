@@ -52,7 +52,28 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|191475000|89850000|bd1f67eb-768a-4aa1-b1a8-c8409b16b4cb|e8305fe2-e3c6-4006-85f2-fd7b73adfcd0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|191475000|92950000|bd1f67eb-768a-4aa1-b1a8-c8409b16b4cb|d9c63942-ac16-451f-a250-e7f211796b01",
+          ""
+        ],
+        [
+          "courtyards_overlap|142475000|91692499|b77daa9b-18bf-4e26-861b-47fa6323da40|f9389af8-c7a6-4dfb-8f66-8b096ee1935c",
+          ""
+        ],
+        [
+          "courtyards_overlap|182505002|69345001|4e9257ed-eb4f-456e-9e2c-620a916d547a|78bb46f4-7ef9-4544-ae2c-276d913b2221",
+          ""
+        ],
+        [
+          "items_not_allowed|160555477|68800000|3d44954d-7835-4f96-a8c1-739e9fc3009c|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -547,19 +568,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -571,13 +592,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -595,7 +616,7 @@
           "group_by": false,
           "label": "Digikey Part",
           "name": "Digikey Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -639,7 +660,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part"
     },
     "connection_grid_size": 50.0,
     "drawing": {
